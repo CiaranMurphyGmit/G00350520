@@ -19,7 +19,7 @@
       <p>Rating: 4.4</p>
       <p>Address: 210 Upper Salthill</p>
       <p>Breakfast . Outdoor Seating . Cozy</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openGalleon()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -29,7 +29,7 @@
       <p>Rating: 4.4</p>
       <p>Address: 161 Upper Salthill</p>
       <p>Cozy . Casual . Good for kids</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openDaRobertas()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -39,7 +39,7 @@
       <p>Rating: 4.7</p>
       <p>Address: 169 Upper Salthill</p>
       <p>Reservations required . Cozy . Casual</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openLaCollina()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -49,7 +49,7 @@
       <p>Rating: 4.1</p>
       <p>Address: Salthill</p>
       <p>Cozy . Casual . Good for kids</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openFisherman()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -60,7 +60,7 @@
       <p>Rating: 4.7</p>
       <p>Address: 53 Lower Dominick Street, Galway</p>
       <p>Cozy . Beer . Wine</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openAniar()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -71,7 +71,7 @@
       <p>Rating: 4.5</p>
       <p>Address: 3 Kirwan's Ln, Galway, H91 N8H4</p>
       <p>Cozy . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openKirwans()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -82,7 +82,7 @@
       <p>Rating: 4.7</p>
       <p>Address: 22 Sea Rd, Galway, H91 DX47</p>
       <p>Cozy . Casual . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openKai()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -93,7 +93,7 @@
       <p>Rating: 4.7</p>
       <p>Address: Spanish Arch, Long Walk, Galway, H91 E9XA</p>
       <p>Cozy . Casual . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openArdBia()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -103,7 +103,6 @@
       <p>Rating: 4.5</p>
       <p>Address: Unit B The Halls, Quay Street, Galway</p>
       <p>Cozy . Casual . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -114,7 +113,7 @@
       <p>Rating: 4.6</p>
       <p>Address: 1 Middle St, Galway</p>
       <p>Cozy . Casual . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openCavaBodega()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -124,7 +123,7 @@
       <p>Rating: 4.4</p>
       <p>Address: 224 Upper Salthill, Galway</p>
       <p>Cozy . Vegetarian Options . Good for kids</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openLanaAsian()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -134,7 +133,7 @@
       <p>Rating: 4.4</p>
       <p>Address: 1 Dock Rd, The Docks, Galway</p>
       <p>Outdoor Seating . Cozy . Casual</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openDock()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -144,7 +143,7 @@
       <p>Rating: 4.5</p>
       <p>Address: Prairie House, 179 Upper Salthill, Galway</p>
       <p>Cozy . Casual . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openBlackCat()">Go to page</button>
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -154,7 +153,6 @@
       <p>Rating: 4.7</p>
       <p>Address: 1, Cathedral Building, Middle St, Galway</p>
       <p>Cozy . Casual . Vegetarian Options</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
       </ion-item>
     <ion-item>
       <ion-thumbnail item-start>
@@ -165,7 +163,7 @@
       <p>Rating: 4.5</p>
       <p>Address: Spanish Arch, Galway</p>
       <p>Cozy . Casual . Groups</p>
-      <!-- <button ion-button item-end>Go to page</button> -->
+      <button ion-button item-end (click)="openThaiGarden()">Go to page</button>
       </ion-item>
     <!-- <div *ngIf="selectedItem" padding>
       You navigated here from <b>{{selectedItem.title}}</b>
